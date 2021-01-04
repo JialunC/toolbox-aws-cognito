@@ -1,0 +1,9 @@
+region = "us-east-1"
+profile = "private"
+domain_name = "monkeypatch.ca"
+cognito_pool_domain = "auth.monkeypatch.ca"
+certificate_domain = "*.monkeypatch.ca"
+user_pool_name = "monkeypatch_user_pool"
+name = "monkeypatch"
+client_callback_urls = ["https://monkeypatch.ca"]
+google_client_ssm_id = "arn:aws:secretsmanager:us-east-1:612455316784:secret:google-social-idp-UFaGU2"
